@@ -1,0 +1,50 @@
+.food-display {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .food-display h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .food-display h1 span {
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .category h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

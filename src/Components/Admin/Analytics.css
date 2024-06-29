@@ -1,0 +1,12 @@
+.analytics {
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  .analytics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

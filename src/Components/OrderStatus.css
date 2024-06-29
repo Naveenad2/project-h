@@ -1,0 +1,65 @@
+.order-status-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.order-status-steps {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+}
+
+.step-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+
+.completed .step-icon {
+  background-color: #4caf50;
+  color: white;
+}
+
+.active .step-icon {
+  background-color: #ff9800;
+  color: white;
+}
+
+.order-status-message {
+  margin-top: 20px;
+}
+
+.cooking-gif {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.order-status-buttons {
+  margin-top: 20px;
+}
+
+.status-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.status-button:hover {
+  background-color: #e68a00;
+}

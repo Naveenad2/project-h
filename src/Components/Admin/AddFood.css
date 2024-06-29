@@ -1,0 +1,167 @@
+/* AddFood.css */
+
+.add-food-a-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-food-a {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  transition: transform 0.3s ease;
+}
+
+.add-food:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-field,
+.select-field,
+.textarea-field,
+.submit-button,
+.load-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus,
+.select-field:focus,
+.textarea-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button,
+.load-button {
+  background: linear-gradient(45deg, #ff6f61, #ff3d54);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.submit-button:hover,
+.load-button:hover {
+  background: linear-gradient(45deg, #ff3d54, #ff6f61);
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label input {
+  margin-right: 5px;
+}
+
+.success-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.success-checkmark {
+  margin-right: 10px;
+}
+
+.success-checkmark .check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4caf50;
+}
+
+.food-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.food-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+}
+
+.food-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.food-card-body {
+  padding: 10px;
+}
+
+.food-card-body h5 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.food-card-body p {
+  color: #666;
+}
+
+.icon-spicy,
+.icon-special {
+  color: #ff6f61;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,98 @@
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .order-summary-popup {
+    position: fixed;
+    bottom: 80px; /* Adjust this value to place above the bottom nav */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1001;
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blur effect for iPhone-like appearance */
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  .order-summary-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .restaurant-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .order-summary-details {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .order-summary-details h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .view-menu {
+    font-size: 0.8rem;
+    color: #555;
+    text-decoration: underline;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .order-summary-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-now {
+    padding: 10px 15px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-right: 10px;
+  }
+  
+  .order-now:hover {
+    background: #218838;
+  }
+  
+  .delete-order {
+    background: #f8d7da;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .delete-order img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .delete-order:hover {
+    background: #f5c6cb;
+  }
+  

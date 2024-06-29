@@ -1,0 +1,15 @@
+.order-confirmation {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.order-confirmation h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.order-gif {
+  width: 200px;
+  height: auto;
+}

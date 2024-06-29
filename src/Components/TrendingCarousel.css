@@ -1,0 +1,55 @@
+.trending-carousel {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .trending-carousel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .carousel-item {
+    position: relative;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .carousel-caption h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .carousel-caption p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff5722;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,176 @@
+.food-items-container {
+  padding: 20px;
+}
+
+.food-list-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.food-list-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.separator {
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.food-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.food-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.food-item:hover {
+  transform: translateY(-10px);
+}
+
+.badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.badge-spicy {
+  background: #ff4500;
+}
+
+.badge-special {
+  background: #32cd32;
+}
+
+.badge-offer {
+  background: #ff8c00;
+}
+
+.food-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-details {
+  padding: 15px;
+}
+
+.top-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge-free-delivery {
+  background: linear-gradient(45deg, #ff6f00, #ff8c00);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.food-details h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.description {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.rating-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating .star {
+  color: #ffa500;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.food-price {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.add-food {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background: linear-gradient(45deg, #ff6f00, #ff8c00);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-food:hover {
+  background: linear-gradient(45deg, #ff8c00, #ff6f00);
+}
+
+.quantity-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quantity-buttons button {
+  background: linear-gradient(45deg, #ff6f00, #ff8c00);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.quantity-buttons button:hover {
+  background: linear-gradient(45deg, #ff8c00, #ff6f00);
+}
+
+.quantity-buttons span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
